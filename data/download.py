@@ -1,5 +1,6 @@
 import pandas as pd
-import plotnine import *
+import yfinance as yf
+from plotnine import *
 
 def download_data(ticket: str) -> pd.DataFrame:
     """
